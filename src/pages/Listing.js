@@ -76,7 +76,7 @@ function Listing(){
       <div className="headerContainer">
         {/* <h1>Welcome to the Database</h1> */}
         <div className="buttonContainer">
-          <input type="text" id="message" name="message" onChange={handleChange} value={search} autoComplete="off"/>
+          <input type="text" id="message" name="message" onChange={handleChange} placeholder="Search of any player" value={search} autoComplete="off"/>
           <button onClick={handleClick}> Submit </button>
           <br></br>
           <input className="searchlist" placeholder="Search in the list" type="text" onChange={handleSearch}/>
