@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    background: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav a {
+    font-family: Montserrat;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 2rem;
+    color: aliceblue;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.10em;
+  }
+  
+  nav a:hover {
+    color: rgb(216, 167, 5);
+  }
+  nav img {
+    margin-top: 50px;
+    display: block;
+    width: 20rem;
+    height: 22rem;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+  
+  .background {
+    /* background-image: url("./images/ground1.jpg"); */
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  var footer .text-center {
+    padding: 0.5% 0% 0.5% 0%;
+  }
+  footer .text-white {
+    text-decoration: none;
+  }
+  
+  main h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+  }
+  main h1.title {
+    color: black;
+  }
+  main span {
+    font-size: 10rem;
+  }
+  main {
+    margin-left: 350px;
+    padding: 10px;
+  }
+  
+  main img {
+    width: 80%;
+    height: 100%;
+  }
+  
+  *{
+    box-sizing: border-box;
+    font-family: Ubuntu;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 4.5rem;
+    border-radius: 0.3rem;
+  }
+  
